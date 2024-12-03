@@ -48,3 +48,12 @@ a {
     display: unset;
   }
 }
+
+.grid-cell {
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-cell:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
